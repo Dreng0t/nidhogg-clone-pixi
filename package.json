@@ -1,14 +1,21 @@
 {
   "name": "nidhogg-pixi",
   "version": "1.0.0",
+  "description": "Nidhogg-style clone using PixiJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
+  "keywords": [
+    "pixi",
+    "game",
+    "nidhogg",
+    "vite"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "pixi.js": "^8.12.0"
   },
